@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>MyBlog</title>
+</head>
+
+<body>
+    <header>
+        <div class="clearfix"></div>
+        <!--Main Navigation menu-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-custom py-3" id="navbar">
+            <div class="container">
+                <!--Logo / text brading-->
+                <a class="navbar-brand px-1" href="#">MyBlog<span class="dot">.</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-align-right"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav w-100 justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Blog
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="blog.html">Blog Page</a>
+                                <a class="dropdown-item" href="blog-single.html">Single Post</a>
+                                <a class="dropdown-item" href="404.html">404 Page</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </nav>
+        <!--// end of Navbar -->
+
+        <div class="hero-page">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="centered hero-page-vh">
+                    <h2>
+                        <i class="fas fa-home d-inline-block mr-2"></i>
+                        <span class="breadcumb">/</span>
+                        Contact
+                    </h2>
+                </div>
+                <!--// Flex v & h centered-->
+            </div>
+            <!--// container-->
+        </div>
+        <!--// hero-page-->
+
+    </header>
+    <!--// End of HEADER -->
+
+
+    <!-- Main webpage -->
+    <main id="webpage">
+
+
+        <div class="container">
+            
+            <!-- Contact From section -->
+            <section id="contact">
+                <h3 class="section-title">Send Message</h3> <!--// section title -->
+
+                <div class="contact-form">
+                    <form action="#" method="GET">
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <label for="fname" class="col-sm-2 col-form-label">First Name </label>
+                                    <div class="col-sm-4 col-xs-12">
+                                        <input type="text" class="form-control" id="fname" placeholder="Your First Name">
+                                    </div>
+                                    
+                                    <label for="lname" class="col-sm-2 col-form-label">Last Name </label>
+                                    <div class="col-sm-4 col-xs-12">
+                                        <input type="text" class="form-control" id="lname" placeholder="Your Last Name">
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!--// form row -->
+                        <div class="form-group row">
+                            <label for="email" class="col-sm-2 col-form-label">Email Address</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email Address">
+                            </div>
+                        </div> <!--// form row -->
+                        <div class="form-group row">
+                            <label for="message" class="col-sm-2 col-form-label">Message </label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="message" rows="6" placeholder="Write Your Message ..."></textarea>
+                            </div> 
+                            <div class="col-sm-12 col-xs-12 text-center mt-3">
+                                <button class="btn btn-primary px-5 py-2" type="submit">Send <i class="fab fa-telegram-plane ml-1"></i></button>
+                            </div>
+                        </div> <!--// form row -->
+                    </form> <!--// Form -->
+                </div>  <!--// contact form container -->
+
+            </section> <!--// contact section -->
+
+        </div> <!--// contaienr -->
+
+
+    </main>
+    <!--// Main Webpage-->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Part -->
+    <footer>
+        <div class="footer-area py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer-widget footer-left px-2">
+                        <a href="#0" class="navbar-brand">MyBlog<span class="dot">.</span></a>
+                        <h5 class="text-warning">Contact</h5>
+                        <address>5534 Somewhere In, The World 22193-10212</address>
+                        <a href="mailto:example@gmail.com" class="btn btn-secondary">Email Us</a>
+                    </div>
+                    <div class="col-md-4 footer-widget footer-mid footer-widget px-3 mt-5">
+                        <h5>Pages</h5>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">404</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 footer-widget footer-right footer-widget px-3 mt-5">
+                        <h5>Latest Posts</h5>
+                        <ul>
+                            <li><a href="#">Hello World!</a></li>
+                            <li><a href="#">Sample post title two</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit</a></li>
+                            <li><a href="#">amet consectetur dolor sit</a></li>
+                        </ul>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col-12 py-1 px-4 footer-credit">
+                            <strong>&copy; All Rights Reserved and Copyright by <span
+                                    class="dot">Mahabub</span></strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--// Footer ends here -->
+
+
+    <!-- JS Scripts -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

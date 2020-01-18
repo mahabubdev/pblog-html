@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>MyBlog</title>
+</head>
+
+<body>
+    <header>
+        <div class="clearfix"></div>
+        <!--Main Navigation menu-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-custom py-3" id="navbar">
+            <div class="container">
+                <!--Logo / text brading-->
+                <a class="navbar-brand px-1" href="#">MyBlog<span class="dot">.</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-align-right"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav w-100 justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Blog
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="blog.html">Blog Page</a>
+                                <a class="dropdown-item" href="blog-single.html">Single Post</a>
+                                <a class="dropdown-item" href="404.html">404 Page</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </nav>
+        <!--// end of Navbar -->
+        <div class="hero-page">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="centered hero-page-vh">
+                    <h2>
+                        <i class="fas fa-home d-inline-block mr-2"></i>
+                        <span class="breadcumb">/</span>
+                        About
+                    </h2>
+                </div> <!--// Flex v & h centered-->
+            </div> <!--// container-->
+        </div> <!--// hero-page-->
+       
+    </header>
+    <!--// End of HEADER -->
+
+
+
+    <main id="webpage">
+        <div class="container">
+            
+            <div class="about">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 left-sidebar">
+                        <div class="info-card">
+                            <div class="img-avater">
+                                <img src="assets/images/me.jpg" alt="avater-author" class="img-fluid">
+                            </div> <!--// avater img-->
+                            <hr>
+                            <div class="author-info">
+                                <ul>
+                                    <li>
+                                        <b>Name :</b>
+                                        <span id="name"><strong>Md Mahabub Alam</strong></span>
+                                    </li>
+                                    <li>
+                                        <b>Email Address :</b>
+                                        <span id="email"><strong>mail@mahabub.net</strong></span>
+                                    </li>
+                                    <li>
+                                        <b>Phone :</b>
+                                        <span id="phone"><strong>+880-1797-236966</strong></span>
+                                    </li>
+                                    <li>
+                                        <b>Address :</b>
+                                        <span id="address"><strong>Porada bazar, Kushtia<br> Khulna, Bangladesh</strong></span>
+                                    </li>
+                                    <li>
+                                        <b>Social Likns :</b>
+                                        <span id="social">
+                                            <!-- Social Media accounts links-->
+                                            <a href="https://facebook.com/mahabub.mmm/" target="_blank" class="btn btn-outline-primary btn-cir">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/mahabub723405/" target="_blank" class="btn btn-outline-primary btn-cir">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                            <a href="https://wa.me/8801797236966" target="_blank" class="btn btn-outline-primary btn-cir">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div> <!--// author info -->
+                        </div> <!--// info card -->
+                    </div> <!--// left sidebar -->
+
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 content-area">
+                        <div class="info-card">
+                            <div class="card-container">
+                                <div class="card-header">
+                                    <h3><i class="fas fa-code"></i> web developer</h3>
+                                </div> <!--// card header -->
+                                <div class="card-body">
+                                    <h4 class="px-2">PHP - WordPress, Laravel based Web Developer</h4>
+                                    <div class="wrap px-2">
+                                        <b>My Core Skills : </b>
+                                        <ul id="skills">
+                                            <li>HTML5 and CSS3</li>
+                                            <li>JavaScript (JS) and ES6</li>
+                                            <li>jQuery and Bootstrap 4.x</li>
+                                            <li>React and Vue </li>
+                                            <li>PHP and PHP-OOP</li>
+                                            <li>WordPress CMS</li>
+                                            <li>Laravel - MVC Framework</li>
+                                            <li>SEO and Graphic Design</li>
+                                            <li>Git and Github</li>
+                                        </ul>
+                                        <a href="./contact.html" class="btn btn-primary px-3 mt-1">Contact Me</a>
+                                    </div>
+                                </div> <!--// card body -->
+                            </div> <!--// card container-->
+                        </div>
+                    </div> <!--// content area -->
+                </div>
+            </div> <!--// about-->
+
+        </div> <!--// container -->
+    </main> <!--// main -->
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Part -->
+    <footer>
+        <div class="footer-area py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer-widget footer-left px-2">
+                        <a href="#0" class="navbar-brand">MyBlog<span class="dot">.</span></a>
+                        <h5 class="text-warning">Contact</h5>
+                        <address>5534 Somewhere In, The World 22193-10212</address>
+                        <a href="mailto:example@gmail.com" class="btn btn-secondary">Email Us</a>
+                    </div>
+                    <div class="col-md-4 footer-widget footer-mid footer-widget px-3 mt-5">
+                        <h5>Pages</h5>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">404</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 footer-widget footer-right footer-widget px-3 mt-5">
+                        <h5>Latest Posts</h5>
+                        <ul>
+                            <li><a href="#">Hello World!</a></li>
+                            <li><a href="#">Sample post title two</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit</a></li>
+                            <li><a href="#">amet consectetur dolor sit</a></li>
+                        </ul>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col-12 py-1 px-4 footer-credit">
+                            <strong>&copy; All Rights Reserved and Copyright by <span class="dot">Mahabub</span></strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--// Footer ends here -->
+    
+    
+    <!-- JS Scripts -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    </body>
+    
+    </html>
